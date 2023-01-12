@@ -19,8 +19,8 @@ function App() {
       <form onSubmit={handleSubmit} className="p-4 z-30 bg-white md:px-[91px] md:py-[40px] flex flex-col items-center rounded-xl shadow-xl">
 
         <img src="./solidlines.svg" alt="lines" />
-        <p className="text-xl mt-[30px]">It's a delight to have you</p>
-        <p className="text-xl">onboard</p>
+        <p className="text-xl font-semibold mt-[30px]">It's a delight to have you</p>
+        <p className="text-xl font-semibold">onboard</p>
         
         <p className="mt-[30px]">Help us know you better</p>
         <p>(This is how we optimize Wobot as per your business needs)</p>
